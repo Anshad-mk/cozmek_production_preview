@@ -1,11 +1,18 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards } from "swiper/modules";
 import Slide from "/src/components/slide";
+import BasicCardimg from "/src/assets/BasicCardimg.png";
+import basiccard from "/src/assets/basic card.png";
+import InterMediateCardimg from "/src/assets/InterMediateCardimg.png"
+import Intermediatecard from "/src/assets/Intermediate card.png"
+import AdvanceCardImg from "/src/assets/AdvanceCardImg.jpeg"
+import advancecardround from "/src/assets/advanced card.png"
+
 
 let card = [
   {
-    mainImage: "/src/assets/BasicCardimg.png",
-    roundImages: "/src/assets/basic card.png",
+    mainImage: BasicCardimg,
+    roundImages: basiccard,
     Project: "2",
     type: "Basic",
     MainHead: "AI Crash Course Program (6 Months)",
@@ -15,8 +22,8 @@ let card = [
     OriginalAmount: "25",
   },
   {
-    mainImage: "/src/assets/InterMediateCardimg.png",
-    roundImages: "/src/assets/Intermediate card.png",
+    mainImage: InterMediateCardimg,
+    roundImages: Intermediatecard,
     Project: "4",
     type: "Intermediate",
     MainHead: "AI Expert Course Program (1 Year)",
@@ -26,8 +33,8 @@ let card = [
     OriginalAmount: "45",
   },
   {
-    mainImage: "/src/assets/AdvanceCardImg.jpeg",
-    roundImages: "/src/assets/advanced card.png",
+    mainImage: AdvanceCardImg,
+    roundImages: advancecardround,
     Project: "8",
     type: "Advanced",
     MainHead: "AI Job Guarantee Program with Internship (1 Year)",

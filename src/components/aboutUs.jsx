@@ -1,5 +1,6 @@
 import Lottie from "react-lottie";
 import animationData from "/src/assets/AboutUs_animation.json";
+import Tick from "/src/assets/ticMark.png"
 
 const list = [
   "Purely skill-based, advanced curriculum, and structure.",
@@ -39,7 +40,7 @@ const AboutUs = () => {
         <div className="flex flex-col space-y-2">
           {list.map((data, index) => (
             <div key={index} className="flex items-center">
-              <img src="/src/assets/ticMark.png" className="w-6 mr-2" alt="." />
+              <img src={Tick} className="w-6 mr-2" alt="." />
               <h6 className="text-base">{data}</h6>
             </div>
           ))}

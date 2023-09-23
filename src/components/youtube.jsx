@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import youtubeLogo from "/src/assets/youtube.png"
+
 const youtube = () => {
   return (
     <>
@@ -7,7 +9,7 @@ const youtube = () => {
         <div className="w-full lg:w-1/2 flex justify-center">
           <div className="w-[70%] lg:w-4/5 h-64 gap-10 flex shadow-2xl justify-center items-center">
             <div className="xs:block hidden">
-              <img src="/src/assets/youtube.png" alt="" className="p-5" />
+              <img src={youtubeLogo} alt="" className="p-5" />
             </div>
             <div className="flex flex-col gap-5 p-3">
               <div>

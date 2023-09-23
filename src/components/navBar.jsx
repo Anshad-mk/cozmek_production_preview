@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+import Logo from "/src/assets/Logo_Cozmek_Black.png"
 
 const NavBar = () => {
   return (
@@ -8,7 +9,7 @@ const NavBar = () => {
         <div className="container flex items-center p-0 m-0 gap-2">
           <img
             className="w-10 h-10 xs:w-12 sx:h-12 lg:w-14 lg:h-14 flex-shrink-0 hover:cursor-pointer"
-            src="/src/assets/Logo_Cozmek_Black.png"
+            src={Logo}
             alt="COZMEK"
             width={10}
             height={10}

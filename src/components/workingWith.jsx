@@ -1,32 +1,43 @@
 import { useEffect, useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import LeftArrow from "/src/assets/left-arrow-.png"
+import RightArrow from "/src/assets/right-arrow-6421.png"
+import imglogo1 from "/src/assets/workwith1.png"
+  import imglogo2 from "/src/assets/workwith2.png"
+  import imglogo3 from "/src/assets/workwith3.png"
+  import imglogo4 from "/src/assets/workwith4.png"
+  import imglogo5 from "/src/assets/workwith5.png"
+  import imglogo6 from "/src/assets/workwith6.png"
+  import imglogo7 from "/src/assets/workwith1.png"
+  import imglogo8 from "/src/assets/workwith2.png"
+  import imglogo9 from "/src/assets/workwith3.png"
+  import imglogo10 from "/src/assets/workwith4.png"
+  import imglogo11 from "/src/assets/workwith5.png"
+  import imglogo12 from "/src/assets/workwith6.png"
+  import imglogo13 from "/src/assets/workwith1.png"
+  import imglogo14 from "/src/assets/workwith2.png"
+  import imglogo15 from "/src/assets/workwith3.png"
+  import imglogo16 from "/src/assets/workwith4.png"
 
 const logo = [
-  "/src/assets/workwith1.png",
-  "/src/assets/workwith2.png",
-  "/src/assets/workwith3.png",
-  "/src/assets/workwith4.png",
-  "/src/assets/workwith5.png",
-  "/src/assets/workwith6.png",
-  "/src/assets/workwith1.png",
-  "/src/assets/workwith2.png",
-  "/src/assets/workwith3.png",
-  "/src/assets/workwith4.png",
-  "/src/assets/workwith5.png",
-  "/src/assets/workwith6.png",
-  "/src/assets/workwith1.png",
-  "/src/assets/workwith2.png",
-  "/src/assets/workwith3.png",
-  "/src/assets/workwith4.png",
-  "/src/assets/workwith5.png",
-  "/src/assets/workwith6.png",
-  "/src/assets/workwith1.png",
-  "/src/assets/workwith2.png",
-  "/src/assets/workwith3.png",
-  "/src/assets/workwith4.png",
-  "/src/assets/workwith5.png",
-  "/src/assets/workwith6.png",
+  imglogo1,
+  imglogo2,
+  imglogo3,
+  imglogo4,
+  imglogo5,
+  imglogo6,
+  imglogo7,
+  imglogo8,
+  imglogo9,
+  imglogo10,
+  imglogo11,
+  imglogo12,
+  imglogo13,
+  imglogo14,
+  imglogo15,
+  imglogo16
+ 
 ];
 // Import Swiper styles
 
@@ -77,10 +88,10 @@ const WorkingWith = () => {
           {" "}
           <div className="">
             <button className="px-2 md:px-4 rounded-full " onClick={handlePrev}>
-              <img className="w-8 md:w-auto rounded-full hover:bg-[#def3f3]" src="/src/assets/left-arrow-.png" alt="Prev" />
+              <img className="w-8 md:w-auto rounded-full hover:bg-[#def3f3]" src={LeftArrow} alt="Prev" />
             </button>
             <button className="   " onClick={handleNext}>
-            <img className="w-8 bg-[#237E7E] hover:bg-[#a4dfdf] md:w-auto rounded-full" src="/src/assets/right-arrow-6421.png" alt="Next" />
+            <img className="w-8 bg-[#237E7E] hover:bg-[#a4dfdf] md:w-auto rounded-full" src={RightArrow} alt="Next" />
             </button>
           </div>
         </div>

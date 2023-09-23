@@ -1,3 +1,5 @@
+import Whatyouwillget from "/src/assets/Whatyouwillget.png"
+import TickSqr from "/src/assets/Tick Square.png"
 let points = [
   "Online and Offline Sections",
   "Placement Assistance and Gurantee",
@@ -14,7 +16,7 @@ const whatyouwillget = () => {
         <div className="flex">
           <div className="relative w-full h-full">
             <img
-              src="/src/assets/Whatyouwillget.png"
+              src={Whatyouwillget}
               className="w-[600px]"
               alt="What you will get"
             />
@@ -48,7 +50,7 @@ const whatyouwillget = () => {
                 }}
               >
                 <img
-                  src="/src/assets/Tick Square.png"
+                  src={TickSqr}
                   className="inline pr-5"
                   alt="Tick squire"
                 />
