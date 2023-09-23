@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards } from "swiper/modules";
-import Slide from "../components/slide";
+import Slide from "/src/components/slide";
 
 let card = [
   {

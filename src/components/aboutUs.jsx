@@ -1,5 +1,5 @@
 import Lottie from "react-lottie";
-import animationData from "../assets/AboutUs_animation.json";
+import animationData from "/src/assets/AboutUs_animation.json";
 
 const list = [
   "Purely skill-based, advanced curriculum, and structure.",

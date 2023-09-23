@@ -1,4 +1,4 @@
-import YourComponent from "../components/swiper";
+import YourComponent from "/src/components/swiper";
 
 const HeroSection = () => {
   return (

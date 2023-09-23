@@ -1,5 +1,5 @@
 import Lottie from "react-lottie";
-import animationData from "../assets/contactus_animation.json";
+import animationData from "/src/assets/contactus_animation.json";
 
 const contactus = () => {
   const defaultOptions = {

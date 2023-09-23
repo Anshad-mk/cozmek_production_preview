@@ -1,6 +1,6 @@
-import students from "../assets/students.png";
-import addon from "../assets/addon.png";
-import workshop from "../assets/workshop.png";
+import students from "/src/assets/students.png";
+import addon from "/src/assets/addon.png";
+import workshop from "/src/assets/workshop.png";
 import CounterCards from "./counterCards";
 
 const Counts = () => {

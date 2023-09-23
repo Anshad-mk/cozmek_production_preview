@@ -1,17 +1,17 @@
-import HeroSection from "../components/HeroSection";
-import AddressBar from "../components/addressBar";
-import NavBar from "../components/navBar";
-import Footer from "../components/footer";
-import Youtube from "../components/youtube";
-import Contactus from "../components/contactus";
-import WorkingWith from "../components/workingWith";
-import Whatyouwillget from "../components/whatyouwillget"
+import HeroSection from "/src/components/HeroSection";
+import AddressBar from "/src/components/addressBar";
+import NavBar from "/src/components/navBar";
+import Footer from "/src/components/footer";
+import Youtube from "/src/components/youtube";
+import Contactus from "/src/components/contactus";
+import WorkingWith from "/src/components/workingWith";
+import Whatyouwillget from "/src/components/whatyouwillget"
 
-import AboutUs from "../components/aboutUs";
-import SlideSelection from "../components/SlideSelection";
+import AboutUs from "/src/components/aboutUs";
+import SlideSelection from "/src/components/SlideSelection";
 
-import Counts from "../components/counts";
-import Testimonals from "../components/testimonals";
+import Counts from "/src/components/counts";
+import Testimonals from "/src/components/testimonals";
 
 const Home = () => {
   return (
